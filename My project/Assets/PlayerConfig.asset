@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a4e16e22d4c5f42a33af0b3e284ccb, type: 3}
+  m_Name: PlayerConfig
+  m_EditorClassIdentifier: 
+  maxHP: 100
+  healAmount: 25
+  lowHPThresholdPercent: 25
+  maxMana: 100
+  spellCost: 20
+  manaRegenAmount: 5
+  manaRegenInterval: 2
+  startCoins: 0
+  coinReward: 10
+  normalHPColor: {r: 1, g: 1, b: 1, a: 1}
+  lowHPColor: {r: 1, g: 0, b: 0, a: 1}
+  warningFlashColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  warningFlashDuration: 0.5
+  spellCooldownSeconds: 3
